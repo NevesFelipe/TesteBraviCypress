@@ -1,6 +1,6 @@
 ## Roteiro automatizado em Cypress de testes end-to-end
 
-Roteiro criado para o teste técnico de Analista de teste (QA) na empresa Bravi.
+Roteiro criado para o teste técnico de Analista de testes (QA) na empresa Bravi.
 
 Para executar é necessário instalar o Nodejs:
 * [Node.js](https://nodejs.org/en/download/)
