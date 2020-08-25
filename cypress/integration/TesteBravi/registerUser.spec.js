@@ -1,13 +1,13 @@
 const faker = require('faker');
 const phone = faker.phone.phoneNumberFormat();
-    function formatPhoneNumber(phoneNumberString) {
-        var cleaned = ('' + phoneNumberString).replace(/\D/g, '')
-        var match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/)
-        if (match) {
-          return match[1] + match[2] + match[3]
-        }
-        return null
+function formatPhoneNumber(phoneNumberString) {
+    var cleaned = ('' + phoneNumberString).replace(/\D/g, '')
+    var match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/)
+    if (match) {
+        return match[1] + match[2] + match[3]
     }
+    return null
+}
 
 describe('Register a user with required fields', function(){
     const email = faker.internet.email();
